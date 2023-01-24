@@ -1,0 +1,19 @@
+@import "../abstracts/variables";
+
+.dashboard {
+    padding: 1rem 2.5rem;
+
+    .form-rect{
+        width: 800px;
+        height: 500px;
+        background-color: $side-bar;
+        padding: 2rem;
+
+        form input, textarea{
+            width: 15rem;
+            display: block;
+            margin-bottom: 0.5rem;
+            padding: 0.3rem;
+        }
+    }
+}

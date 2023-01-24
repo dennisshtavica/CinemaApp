@@ -1,0 +1,7 @@
+@import "../abstracts/variables";
+
+.displayViews {
+    display: flex;
+    background-color: $home-page;
+    // position: fixed;
+}

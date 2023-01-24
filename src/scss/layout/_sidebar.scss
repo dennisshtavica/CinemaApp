@@ -1,5 +1,13 @@
-.denis {
-    width: 100px;
-    height: 100px;
-    background-color: aquamarine;
+@import "../abstracts/variables";
+
+.sidebar {
+    width: 16.438rem;
+    height: 100vh;
+    background-color: $side-bar;
+    padding: 2.1rem;
+    
+    .sidebar-nav {
+        display: flex;
+        flex-direction: column;
+    }
 }
