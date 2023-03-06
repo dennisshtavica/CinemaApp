@@ -1,0 +1,11 @@
+@import "../abstracts/variables";
+
+
+.formCtn {
+    width: 500px;
+    height: 500px;
+    background-color: $side-bar;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,13 +1,34 @@
 @import "../abstracts/variables";
 
 .sidebar {
-    width: 16.438rem;
-    height: 100vh;
-    background-color: $side-bar;
-    padding: 2.1rem;
-    
-    .sidebar-nav {
-        display: flex;
-        flex-direction: column;
+  width: 16.438rem;
+  height: 100%;
+  background-color: $side-bar;
+  padding: 2.1rem;
+
+  .logo{
+    margin-bottom: 2rem;
+  }
+
+  .sidebar-nav {
+    display: flex;
+    flex-direction: column;
+  }
+
+  a {
+    color: white;
+    margin-bottom: 1rem;
+  }
+
+  .sidebar-links {
+    a {
+      display: flex;
+      justify-content: start;
+      align-items: center;
+      img {
+        width: 20px;
+        margin-right: 0.5rem;
+      }
     }
+  }
 }

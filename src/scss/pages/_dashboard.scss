@@ -1,11 +1,11 @@
 @import "../abstracts/variables";
 
 .dashboard {
-    padding: 1rem 2.5rem;
+    padding: 1rem 3rem;
 
     .form-rect{
         width: 800px;
-        height: 500px;
+        height: auto;
         background-color: $side-bar;
         padding: 2rem;
 

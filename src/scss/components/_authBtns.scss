@@ -1,0 +1,25 @@
+@import "../abstracts/mixins";
+
+.navLink{
+    @include flexCenter;
+    .authSignUp{
+        a {
+            color: #AAAAAA;
+            margin-right: 0.8rem;
+            font-weight: bold;
+            font-size: 0.9rem;
+        }
+    }
+    .authLogIn{
+        background-color: #FF8E3C;
+        padding: 0.5rem 1.2rem;
+        border-radius: 28px;
+        
+        a{
+            color: black;
+            font-weight: bold;
+            font-size: 0.9rem;
+        }
+    }
+    
+}
